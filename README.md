@@ -107,3 +107,59 @@ The environmental benefits of using recycled steel in EAFs are substantial. For 
 Furthermore, EAFs contribute to reducing emissions by up to 95% compared to traditional methods such as the direct reduced iron (DRI) process[36]
 . The use of recycled materials in EAFs also supports environmental sustainability and strategic autonomy by reducing dependence on imported raw materials[36]
 . With the European Union's recycling capacity projected to meet future demands, the increase in recycled steel exports compensates for the decrease in domestic consumption[36]
+
+References
+[1]: Electric arc furnace - Wikipedia
+[2]: Electric Arc Furnace (EAF) – EngineeringTechnology.org
+[3]: Advantages of Electric Arc Furnaces (EAF) in Steelmaking Processes
+[4]: Electric Arc Furnace 101: A Complete Guide for Beginners and Experts
+[5]: How to Make Steel: Blast Furnace Vs. Electric Arc Furnace
+[6]: EAF vs. BOF Furnaces in Sustainable Steelmaking - Charter Steel
+[7]: Electric Arc Furnace vs. Blast Furnace - Steel Supply LP
+[8]: The switch from blast furnaces to electric arc furnaces (EAF ... - Nemag
+[9]: How to Make Steel: Blast Furnace Vs. Electric Arc Furnace
+[10]: How Do I Compare Electric Arc Furnaces and Blast Furnaces?
+[11]: Exploring Steel Production: Blast Furnace vs. Electric Arc Furnace
+[12]: The Costs Of Producing Steel With Electric Arc Furnaces
+[13]: The Future of Electric Steelmaking - Metals Magazine
+[14]: Electric Arc Furnace and Converter Steelmaking
+[15]: Electric Arc Furnaces: Pioneering Sustainable Steel Production for a ...
+[16]: JFE Steel Plans Major Emission Cut with World's Largest Electric Arc ...
+[17]: THE EAF QUANTUM: Shaping the Future of Electric Steelmaking
+[18]: Electric Arc Furnaces: Key to Net Zero Steel Production
+[19]: How to Make Steel: Blast Furnace Vs. Electric Arc Furnace
+[20]: The switch from blast furnaces to electric arc furnaces (EAF ... - Nemag
+[21]: Electric Arc Furnace vs. Blast Furnace - Steel Supply LP
+[22]: EAFvsBlastFurnace - Steel Dynamics
+[23]: Exploring Steel Production: Blast Furnace vs. Electric Arc Furnace
+[24]: Blast Furnace to EAF Transition: Navigating Challenges and Market Gaps
+[25]: Blast Furnace to EAF Transition: Navigating Challenges and Market Gaps
+[26]: Hydrogen unleashed: Opportunities and challenges in the ... - IEEFA
+[27]: Will China Win the Green Steel Race? H2-DRI-EAF Market and Policy ...
+[28]: Electric Arc Furnace vs. Blast Furnace - Steel Supply LP
+[29]: How Do I Compare Electric Arc Furnaces and Blast Furnaces?
+[30]: Automation Control and Modelling of Electric Arc Furnace
+[31]: THE EAF QUANTUM: Shaping the Future of Electric Steelmaking
+[32]: Unified Control Systems for Electric Arc Furnace (EAF) Automation
+[33]: Optimization of the Electric Arc Furnace Process - uni-lj.si
+[34]: The Future of Electric Steelmaking - Metals Magazine
+[35]: Electric Arc Furnace – Complete Process, Parts & Application
+[36]: Circular steel for a low-carbon, competitive European steel industry[37]: Revolutionizing Steel: The Impact of Electric Arc Furnace Technology
+[38]: Electric Arc Furnaces Revitalize the Steel Industry | R.T. Patterson ...
+[39]: Advanced Recycling Techniques for Sustainable Steel: A Greener Future ...
+[40]: Blast Furnace to EAF Transition: Navigating Challenges and Market Gaps
+[41]: Shortfalls in Scrap Will Challenge the Steel Industry | BCG
+[42]: Greater Energy Independence with Sustainable Steel Production - MDPI
+[43]: Review of EAF Technologies and Refractory Digitalization
+[44]: Refractory Lining of the Electric Arc Furnace – IspatGuru
+[45]: Exploring 6 Electric Arc Furnace Refractory Materials
+[46]: Refractory For EAF-Guide | PDF | Refractory | Brick - Scribd
+[47]: Electric Arc Furnace Refractory - Customizable and Easy to Install
+[48]: China Best Eaf Refractory Lining Manufacturer, Supplier | Xinyuan ...
+[49]: Midrex Process for Direct Reduction of Iron Ore – IspatGuru
+[50]: Educated Use of DRI-HBI Improves EAF Energy Efficiency and ... - Scribd
+[51]: Hydrogen unleashed: Opportunities and challenges in the ... - IEEFA
+[52]: Hydrogen production – Global Hydrogen Review 2024 – Analysis - IEA
+[53]: 2023 Hydrogen Levelized Cost Update: Green Beats Gray
+[54]: The Future of Hydrogen – Analysis - IEA - International Energy Agency
+[55]: Hydrogen Insights 2023 - Hydrogen Council
