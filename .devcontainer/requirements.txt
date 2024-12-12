@@ -70,6 +70,7 @@ packaging==24.1
 pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.4
+persiantools==5.1.0
 pexpect==4.9.0
 pillow==11.0.0
 platformdirs==4.3.6
