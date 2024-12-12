@@ -107,6 +107,39 @@ The environmental benefits of using recycled steel in EAFs are substantial. For 
 Furthermore, EAFs contribute to reducing emissions by up to 95% compared to traditional methods such as the direct reduced iron (DRI) process[36]
 . The use of recycled materials in EAFs also supports environmental sustainability and strategic autonomy by reducing dependence on imported raw materials[36]
 . With the European Union's recycling capacity projected to meet future demands, the increase in recycled steel exports compensates for the decrease in domestic consumption[36]
+The ideal FeO percentage in foamy slag for Electric Arc Furnace (EAF) steelmaking is crucial for effective slag foaming, which impacts the steelmaking process's efficiency and quality.
+
+FEO:
+Studies show that slag viscosity increases as FeO content decreases; at 9.9% FeO, viscosity is 1810 cP at 1550 °C, while at 29.6% FeO, it drops below 100 cP.
+https://www.mdpi.com/2075-4701/11/2/289
+This indicates that an optimal FeO range is around 10-30%.
+This range ensures adequate viscosity for foaming without making the slag too fluid, optimizing benefits like energy saving, productivity, and refractory service life.
+https://www.scielo.br/j/mr/a/BsbxKzfwjJb9VqcNvzXjHSG/
+
+B2 & B3 & B4:
+B2 (CaO/SiO2): Increasing B2 boosts the slag's electrical conductivity, aiding energy transfer and maintaining optimal temperature for slag foaming.
+This enhances viscosity and stability, improving heat retention and protecting furnace walls.
+B3 (CaO + MgO)/(SiO2 + Al2O3): A higher B3 ratio optimizes the chemical composition for stable foaming, reducing radiation losses, electrode consumption, and protecting the refractory lining.
+B4 (including additional fluxes): Adjusting B4 influences the slag's melting behavior and liquidus temperature, enhancing responsiveness to gases like oxygen and carbon, which are essential for CO gas-driven foaming.
+Overall, managing these ratios effectively can significantly improve slag foaming efficiency, protecting furnace components and lowering operational costs.
+
+Al2O3:
+The presence of alumina (Al2O3) in foamy slag within an Electric Arc Furnace (EAF) plays a crucial role in the efficiency of the steelmaking process.
+Foamy slag helps reduce heat loss and protects the melt from atmospheric exposure.
+Al2O3 impacts the slag's viscosity, which is vital for foam formation and stability.
+In the FeO-CaO-SiO2-MgO-Al2O3 slag system, Al2O3 alters melting behavior and viscosity, affecting foam height and stability.
+Optimal Al2O3 levels enhance thermal insulation, energy efficiency, and furnace protection, making steel production more efficient.
+Understanding and controlling Al2O3 content is key to optimizing slag foaming and overall process efficiency.
+https://www.ispatguru.com/foaming-of-slag-in-electric-arc-furnace/
+If the Al2O3 content is too high, the slag becomes too viscous, making it difficult to flow and separate impurities.
+
+MgO:
+MgO is particularly beneficial as it helps produce CO2 gas when crude MgCO3 is injected, aiding the foaming process.
+Additionally, MgO improves slag compatibility with refractories, reducing wear and maintenance costs.
+This not only lowers specific electric energy consumption but also decreases the need for lime and anthracite powder, further boosting efficiency and cost-effectiveness.
+
+
+
 
 References
 [1]: Electric arc furnace - Wikipedia
