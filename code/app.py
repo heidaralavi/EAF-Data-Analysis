@@ -1,7 +1,9 @@
+import os
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
+import pickle
+working_dir = os.getcwd()
+#working_dir ='..'  # Use on Jupyter Notebook
 
 #for running the app
 # streamlit run ./code/app.py --server.port=8501 --server.address=127.0.0.1
@@ -10,52 +12,30 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 st.write("""
-# Simple Iris Flower Prediction App
+# Feed Prediction App
 
-This app predicts the **Iris flower** type!
+This app predicts the **EAF Feeds** type!
 """)
 
-st.sidebar.header('User Input Parameters')
-#st.write(f'dlkfjd fsk ===   {petal_width}')
-def user_input_features():
-    sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
-    sepal_width = st.sidebar.slider('Sepal width', 2.0, 4.4, 3.4)
-    petal_length = st.sidebar.slider('Petal length', 1.0, 6.9, 1.3)
-    petal_width = st.sidebar.slider('Petal width', 0.1, 2.5, 0.2)
-    petal_width = st.sidebar.number_input('Petal width', 0.1, 2.5, 0.2)
-    data = {'sepal_length': sepal_length,
-            'sepal_width': sepal_width,
-            'petal_length': petal_length,
-            'petal_width': petal_width}
-    features = pd.DataFrame(data, index=[0])
+def coke1030_input_features():
+    c_coke1030 = st.sidebar.slider('C (%)', 80.0, 85.0, 82.0)
+    print(c_coke1030)
+    s_coke1030 = st.sidebar.slider('S (%)', 0.0, 2.0, 1.0)
+    s112_coke1030 = st.sidebar.slider('Size 112 (%)', 0.0, 5.0, 2.0)
+    clf = pickle.load(open(f"{working_dir}/trained_models/coke_1030_rfc_model.pkl", 'rb'))
+    data = {'c': c_coke1030,
+            's': s_coke1030,
+            's112': s112_coke1030,
+            }
+    features = pd.DataFrame(data, index=['Coke 1030'])
+    features['Type prediction'] = clf.predict(features)
     return features
 
-df = user_input_features()
+
+
+
+st.sidebar.header('Input Coke (1030) Parameters:')
+coke_1030_df = coke1030_input_features()
 
 st.subheader('User Input parameters')
-st.write(df)
-'''
-iris = datasets.load_iris()
-X = iris.data
-Y = iris.target
-
-clf = RandomForestClassifier()
-clf.fit(X, Y)
-
-prediction = clf.predict(df)
-prediction_proba = clf.predict_proba(df)
-
-st.subheader('Class labels and their corresponding index number')
-st.write(iris.target_names)
-
-st.subheader('Prediction')
-st.write(iris.target_names[prediction])
-#st.write(prediction)
-
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
-
-
-#streamlit run ./code/app.py --server.port=8501 --server.address=127.0.0.1
-
-'''
+st.write(coke_1030_df)
