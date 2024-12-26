@@ -1,4 +1,4 @@
-tar,fe_metal,fe_total,md,c,cao,sio2,mgo,al2o3,p,mno,gunge,feo,feo_c,labels
+tar,fe_metal (DRI),fe_total (DRI),md (DRI),c (DRI),cao (DRI),sio2 (DRI),mgo (DRI),al2o3 (DRI),p (DRI),mno (DRI),gunge (DRI),feo (DRI),feo_c (DRI),Dri_labels
 14020915,82.5,87.58,94.2,1.68,0.46,2.67,0.4,0.49,0.05,0.02,9.3,6.53,3.92,1
 14020916,81.4,87.8,92.7,1.8,0.0,0.0,0.0,0.0,0.0,0.0,8.57,8.23,4.57,0
 14020917,81.55,87.4,93.3,1.88,0.0,0.0,0.0,0.0,0.0,0.0,9.05,7.53,4.08,0

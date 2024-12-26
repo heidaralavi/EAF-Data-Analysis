@@ -1,4 +1,4 @@
-tar,c,s,humidity,s05,s05_335,s335
+tar,c (CokeFine),s (CokeFine),humidity (CokeFine),s05 (CokeFine),s05_335 (CokeFine),s335 (CokeFine)
 14020915,80.5,1.33,0.0,5.33,93.33,1.33
 14020918,80.45,1.25,0.0,3.0,93.5,3.5
 14020920,98.65,0.21,0.0,1.0,99.0,0.0

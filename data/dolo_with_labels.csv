@@ -1,4 +1,4 @@
-tar,cao,mgo,s0_95,s95_385,s385_1000,labels
+tar,cao (Dolomite),mgo (Dolomite),s0_95 (Dolomite),s95_385 (Dolomite),s385_1000 (Dolomite),Dolomite_labels
 14020915,54.68,33.22,2.5,72.5,0.0,1
 14020916,54.3,34.02,2.25,72.75,0.0,1
 14020917,54.83,34.4,2.33,64.33,0.0,1
