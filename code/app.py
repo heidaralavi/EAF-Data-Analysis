@@ -65,12 +65,6 @@ def dri_input_features():
     fe_total_dri = st.sidebar.slider('Fe_total (%)', 80.0, 90.0, 84.0,key='dri_2')
     md_dri = st.sidebar.slider('MD (%)', 85.0, 100.0, 90.0,key='dri_3')
     c_dri = st.sidebar.slider('C (%)', 0.0, 3.0, 1.2,key='dri_4')
-    cao_dri = st.sidebar.slider('Cao (%)', 0.0, 1.0, 1.0,key='dri_5')
-    sio2_dri = st.sidebar.slider('Sio2 (%)', 0.0, 6.0, 2.0,key='dri_6')
-    mgo_dri = st.sidebar.slider('Mgo (%)', 0.0, 1.5, 0.8,key='dri_7')
-    al2o3_dri = st.sidebar.slider('Al2o3 (%)', 0.0, 1.5, 0.8,key='dri_8')
-    p_dri = st.sidebar.slider('P (%)', 0.0, 0.15, 0.08,key='dri_9')
-    mno_dri = st.sidebar.slider('Mno (%)', 0.0, 0.05, 0.02,key='dri_10')
     gunge_dri = st.sidebar.slider('Gunge (%)', 7.0, 15.0, 9.5,key='dri_11')
     feo_dri = st.sidebar.slider('Feo (%)', 6.0, 15.0, 9.5,key='dri_12')
     feo_c_dri = st.sidebar.slider('Feo_c (%)', 0.0, 12.0, 9.5,key='dri_13')
@@ -79,12 +73,6 @@ def dri_input_features():
             'fe_total': fe_total_dri,
             'md': md_dri,
             'c': c_dri,
-            'cao': cao_dri,
-            'sio2': sio2_dri,
-            'mgo': mgo_dri,
-            'al2o3': al2o3_dri,
-            'p': p_dri,
-            'mno': mno_dri,
             'gunge': gunge_dri,
             'feo': feo_dri,
             'feo_c': feo_c_dri,
