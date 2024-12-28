@@ -119,8 +119,11 @@ df = df[df.columns[~mask]]
 mask2 = df['Total_labels'] == predict_label
 df = df[mask2]
 max_b2 = df['b2 (Slag)'].max()
-mask3 = df['b2 (Slag)'] == max_b2
+mask3 = df['b2 (Slag)'].between(0.5*max_b2,max_b2)
 df = df[mask3]
-mask4 = df.columns.str.contains('EAF|Heat|b2|Total_labels')
-df = df[df.columns[mask4]]
+min_feo = df['feo (Slag)'].min()
+mask4 = df['feo (Slag)'].between(0.5*min_feo,min_feo)
+df = df[mask4]
+mask5 = df.columns.str.contains('EAF|Heat|feo|b2|Total_labels')
+df = df[df.columns[mask5]]
 st.write(df)
