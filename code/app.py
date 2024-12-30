@@ -118,12 +118,17 @@ mask = df.columns.str.contains('Coke1030|CokeFine|Dolomite|DRI|Lime')
 df = df[df.columns[~mask]]
 mask2 = df['Total_labels'] == predict_label
 df = df[mask2]
-max_b2 = df['b2 (Slag)'].max()
-mask3 = df['b2 (Slag)'].between(0.5*max_b2,max_b2)
+mask3 = df['Slag_labels'] == 0
 df = df[mask3]
-min_feo = df['feo (Slag)'].min()
-mask4 = df['feo (Slag)'].between(0.5*min_feo,min_feo)
+max_b2 = df['b2 (Slag)'].max()
+mask4 = df['b2 (Slag)'].between(0.5*max_b2,max_b2)
 df = df[mask4]
-mask5 = df.columns.str.contains('EAF|Heat|feo|b2|Total_labels')
-df = df[df.columns[mask5]]
+min_feo = df['feo (Slag)'].min()
+mask5 = df['feo (Slag)'].between(0.5*min_feo,min_feo)
+df = df[mask5]
+mask6 = df.columns.str.contains('EAF|Heat|feo|mgo|b2|Total_labels')
+df = df[df.columns[mask6]]
 st.write(df)
+isd_df = pd.read_csv(f"{working_dir}/opencv-images/1xy.csv")
+st.image(f"{working_dir}/opencv-images/isotermal-b3-1_5.jpg")
+st.scatter_chart(data=isd_df[isd_df['label']==0],x='x',y='y',x_label='Feo',y_label='Mgo')
