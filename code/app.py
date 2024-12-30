@@ -10,7 +10,8 @@ working_dir = os.getcwd()
 
 st.write("""
 # Feed Prediction App
-This app predicts the **EAF Feeds** type!
+**Desgin By heidar alavi @CMIC 2025**
+# This app predicts the **EAF Feeds** type!
 """)
 
 def coke1030_input_features(min_dict,max_dict,avg_dict):
@@ -130,5 +131,5 @@ mask6 = df.columns.str.contains('EAF|Heat|feo|mgo|b2|Total_labels')
 df = df[df.columns[mask6]]
 st.write(df)
 isd_df = pd.read_csv(f"{working_dir}/opencv-images/1xy.csv")
-st.image(f"{working_dir}/opencv-images/isotermal-b3-1_5.jpg")
-st.scatter_chart(data=isd_df[isd_df['label']==0],x='x',y='y',x_label='Feo',y_label='Mgo')
+st.image(f"{working_dir}/opencv-images/isd-feo-mgo.jpg")
+#st.scatter_chart(data=isd_df[isd_df['label']==0],x='x',y='y',x_label='Feo',y_label='Mgo')
