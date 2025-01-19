@@ -1,0 +1,26 @@
+[Unit]
+Description=Steel WebApp service
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/home/alavi
+ExecStartPre=/bin/bash -c "source /home/alavi/.venv/bin/activate"
+ExecStart=/home/alavi/.venv/bin/streamlit run /home/alavi/code/app.py
+[Install]
+WantedBy=multi-user.target
+
+
+sudo nano /etc/systemd/system/steel.service
+
+
+
+--serve-in-foreground
+sudo systemctl daemon-reload
+sudo systemctl enable steel.service
+sudo systemctl start steel.service
+sudo systemctl restart steel.service
+sudo systemctl status steel.service
+sudo systemctl disable steel.service
+sudo systemctl stop steel.service
+
